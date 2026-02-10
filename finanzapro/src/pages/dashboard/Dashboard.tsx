@@ -212,6 +212,7 @@ export const Dashboard: React.FC = () => {
             ))}
           </div>
         </Card>
+        <AddTransactionModal />
       </motion.div>
     </motion.div>
   );

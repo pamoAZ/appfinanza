@@ -109,3 +109,13 @@ export const Toast: React.FC<ToastProps> = ({
     </div>
   );
 };
+return (
+  <motion.div ...>
+    {/* ... todo tu código actual ... */}
+
+    <AddTransactionModal 
+      isOpen={activeModal === 'addTransaction'} 
+      onClose={closeModal} 
+    />
+  </motion.div>
+);
